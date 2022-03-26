@@ -9,7 +9,7 @@ public class SUV extends LandVehicle {
   }
 
   public String getEngineType() {
-    return this.engineType;
+    return engineType;
   }
 
   public int numOfWheels() {
