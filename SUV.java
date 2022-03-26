@@ -23,7 +23,4 @@ public class SUV extends LandVehicle {
   public void whoAmI() {
     System.out.println("I am class SUV");
   }
-
-
-
 }
