@@ -1,10 +1,8 @@
 package me2;
 
-
 public class LandVehicle extends Vehicle {
   private String model;
   private String name;
-
 
   // getters & setters
   public String getName() {
@@ -16,7 +14,7 @@ public class LandVehicle extends Vehicle {
   }
 
   public String getModel(){
-    return name;
+    return model;
   }
 
   public void setModel(String model){
@@ -26,6 +24,7 @@ public class LandVehicle extends Vehicle {
   public void portArea() {
     System.out.println("land terminal");
   }
+  
   public void makeSound() {
     System.out.println("zooomm");
   }
@@ -37,7 +36,4 @@ public class LandVehicle extends Vehicle {
   public int numOfWheels() {
     return 0;
   }
-
-
-
 }
