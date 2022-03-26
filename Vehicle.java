@@ -7,7 +7,7 @@ abstract class Vehicle {
   // abstract methods
   public abstract void portArea();
   public abstract void makeSound();
-
+  
   public abstract void whoamI();
 
   // getters & setters
@@ -20,5 +20,5 @@ abstract class Vehicle {
 
   public final void separator() {
     System.out.println("+++++++++++++++++");
-  };
+  }
 }
