@@ -6,7 +6,7 @@ public class LandVehicle extends Vehicle {
 
   // getters & setters
   public String getName() {
-    return name;
+    return this.name;
   }
 
   public void setName(String name) {
@@ -14,7 +14,7 @@ public class LandVehicle extends Vehicle {
   }
 
   public String getModel(){
-    return model;
+    return this.model;
   }
 
   public void setModel(String model){
