@@ -15,8 +15,6 @@ public class AirVehicle extends Vehicle {
   }
 
   public void whoamI() {
-    System.out.println("airport");
+    System.out.println(" I am class Air Vehicle");
   }
-
-
 }
