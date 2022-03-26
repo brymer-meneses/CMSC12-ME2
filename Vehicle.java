@@ -14,7 +14,7 @@ abstract class Vehicle {
     this.color = color;
   }
   public String getColor() {
-    return color;
+    return this.color;
   }
 
   public final void separator() {
