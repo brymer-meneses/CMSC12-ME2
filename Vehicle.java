@@ -1,6 +1,5 @@
 package me2;
 
-
 abstract class Vehicle {
   private String color;
 
