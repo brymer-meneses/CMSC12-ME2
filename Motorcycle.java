@@ -12,7 +12,7 @@ public class Motorcycle extends LandVehicle{
     System.out.println("brummm");
   }
 
-  public void whoAmI() {
+  public void whoamI() {
     System.out.println("I am class Motorcycle");
   }
 }
