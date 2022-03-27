@@ -3,7 +3,6 @@ package me2;
 public class SUV extends LandVehicle {
   private String engineType;
 
-
   public void setEngineType(String engine) {
     this.engineType = engine;
   }
