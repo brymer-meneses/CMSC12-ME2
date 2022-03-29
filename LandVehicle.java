@@ -1,3 +1,8 @@
+// Machine Exercise 2
+// authors:
+// Brymer Meneses
+// James Soldao
+
 package me2;
 
 public class LandVehicle extends Vehicle {
@@ -13,18 +18,18 @@ public class LandVehicle extends Vehicle {
     this.name = name;
   }
 
-  public String getModel(){
+  public String getModel() {
     return this.model;
   }
 
-  public void setModel(String model){
+  public void setModel(String model) {
     this.model = model;
   }
 
   public void portArea() {
     System.out.println("land terminal");
   }
-  
+
   public void makeSound() {
     System.out.println("zooomm");
   }

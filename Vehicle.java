@@ -1,3 +1,8 @@
+// Machine Exercise 2
+// authors:
+// Brymer Meneses
+// James Soldao
+
 package me2;
 
 abstract class Vehicle {
@@ -5,14 +10,16 @@ abstract class Vehicle {
 
   // abstract methods
   public abstract void portArea();
+
   public abstract void makeSound();
-  
+
   public abstract void whoamI();
 
   // getters & setters
   public void setColor(String color) {
     this.color = color;
   }
+
   public String getColor() {
     return this.color;
   }

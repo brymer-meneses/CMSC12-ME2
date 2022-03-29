@@ -1,6 +1,11 @@
+// Machine Exercise 2
+// authors:
+// Brymer Meneses
+// James Soldao
+
 package me2;
 
-public class Motorcycle extends LandVehicle{
+public class Motorcycle extends LandVehicle {
 
   public int numOfWheels() {
     return 2;

@@ -1,14 +1,19 @@
+// Machine Exercise 2
+// authors:
+// Brymer Meneses
+// James Soldao
+
 package me2;
 
 public class SUV extends LandVehicle {
   private String engineType;
 
   public void setEngineType(String engine) {
-    this.engineType = engine;
+    engineType = engine;
   }
 
   public String getEngineType() {
-    return this.engineType;
+    return engineType;
   }
 
   public int numOfWheels() {

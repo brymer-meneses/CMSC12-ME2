@@ -1,3 +1,8 @@
+// Machine Exercise 2
+// authors:
+// Brymer Meneses
+// James Soldao
+
 package me2;
 
 public class AirVehicle extends Vehicle {
@@ -15,6 +20,6 @@ public class AirVehicle extends Vehicle {
   }
 
   public void whoamI() {
-    System.out.println(" I am class Air Vehicle");
+    System.out.println("I am class Air Vehicle");
   }
 }
